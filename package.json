@@ -1,0 +1,27 @@
+{
+  "name": "ingonit00-rainbowkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.3",
+    "@tanstack/react-query": "^5.66.0",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "viem": "2.x",
+    "wagmi": "^2.14.11"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6"
+  }
+}

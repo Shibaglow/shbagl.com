@@ -1,0 +1,11 @@
+@import url("../../public/css/aos.css");
+@import url("../../public/css/bootstrap.min.css");
+@import url("../../public/css/style.css");
+@import url("../../public/css/responsive.css");
+
+html,
+body {
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+}

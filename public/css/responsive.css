@@ -1,0 +1,358 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    html {
+        font-size: 56%;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    .nav_logo img {
+        max-width: 8.5rem!important;
+    }
+
+    .nav_links ul {
+        gap: 2.4rem!important;
+    }
+
+    .nav_links ul li a {
+        font-size: 1.8rem!important;
+    }
+
+    .nav_links ul li a.nav_btn {
+        font-size: 1.6rem!important;
+        padding: 1.4rem 2.8rem!important;
+    }
+
+    .hero_area {
+        padding-top: 16rem;
+    }
+
+    .hero_left h1 {
+        font-size: 5.5rem;
+        max-width: 49rem;
+    }
+
+    .hero_left p {
+        font-size: 2.4rem;
+        max-width: 55.5rem;
+    }
+
+    .sponsors_cnt h4 {
+        font-size: 2.6rem;
+    }
+
+    .sponsors_cnt p {
+        font-size: 2.2rem;
+    }
+
+    .footer_upper h3 {
+        font-size: 4.2rem;
+    }
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media (max-width: 991px) {
+
+    #menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: inline-block;
+    }
+
+    .ofcavas-menu {
+        display: block;
+    }
+
+    .hero_area {
+        padding-top: 15rem;
+    }
+
+    .hero_right img {
+        transform: initial;
+        margin-top: -4rem;
+        margin-left: -3rem;
+    }
+
+    .countdown {
+        margin-top: -12rem;
+    }
+
+    .hero_left h1 {
+        max-width: 100%;
+    }
+
+    .hero_left p {
+        max-width: 100%;
+    }
+
+    .hero_left {
+        text-align: center; 
+        padding-top: 6rem;
+    }
+
+    .about_area {
+        padding: 12rem 0rem 18rem;
+    }
+
+    .sponsors_item img {
+        max-width: 100%;
+        width: initial;
+    }
+
+    .sponsors_item {
+        text-align: center;
+        margin: 3rem 0;
+    }
+
+    .bullet2::after {
+        left: initial;
+    }
+
+    .benefits_left {
+        margin-top: 3.5rem;
+    }
+
+    .footer_area {
+        padding: 5rem 0 8rem;
+    }
+
+    .footer_left {
+        display: block;
+        text-align: center;
+    }
+
+    .footer_upper {
+        margin-top: -5rem;
+        text-align: center;
+    }
+
+    .footer_upper h3 {
+        font-size: 4rem;
+    }
+
+    .footer_logo img {
+        max-width: 45rem;
+        display: block;
+        transform: initial;
+        margin: 0 auto;
+    }
+
+    .footer_bottom ul {
+        justify-content: center;
+    }
+
+    .footer_right {
+        text-align: center;
+        margin-top: 3.6rem;
+    }
+
+    .footer_right ul li {
+        list-style: none;
+    }
+
+    .footer_bottom p,
+    .footer_bottom a {
+        font-size: 1.6rem;
+    }
+
+    .footer_bottom img {
+        max-width: 4rem;
+    }
+
+    .footer_right p {
+        font-size: 1.4rem;
+        line-height: 200%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+     html {
+        font-size: 50%;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+
+    .roadmap_item {
+        margin-bottom: 3.5rem;
+    }
+
+    .roadmap_main {
+        max-width: 50rem;
+        width: 100%;
+    }
+
+    .roadmap_main::after {
+        left: 94.5%;
+    }
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+     html {
+        font-size: 48%;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    .back-to-top {
+        bottom: 2.5rem;
+        right: 2rem;
+    }
+
+    .nav_logo img {
+        max-width: 9.5rem!important;
+    }
+
+    .ofcavas-menu ul {
+        margin-top: 17rem;
+        display: block;
+    }
+
+    .hero_right img {
+        transform: initial;
+        margin-top: -4rem;
+        margin-left: -1.6rem;
+    }
+
+    .countdown {
+        margin-top: -6rem;
+        gap: 2rem;
+    }
+
+    .time-value {
+        font-size: 4rem;
+    }
+
+    .hero_left h1 {
+        font-size: 3.8rem;
+        max-width: 100%;
+    }
+
+    .hero_left p {
+        font-size: 2.2rem;
+        max-width: 100%;
+        margin: 1rem 0rem 2.5rem;
+    }
+
+    .hero_left {
+        text-align: center; 
+        padding-top: 5rem;
+    }
+
+    .hero_left span {
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero_left a {
+        font-size: 1.75rem;
+    }
+
+    .title_cnt h2, 
+    .title_cnt h3 {
+        font-size: 4.2rem;
+    }
+
+    .title_cnt p {
+        font-size: 2.5rem;
+    }
+
+    .about_cnt h4,
+    .about_right h3 {
+        font-size: 3rem;
+    }
+
+    .about_cnt p {
+        font-size: 2rem;
+    }
+
+    .about_area {
+        padding: 10rem 0rem;
+    }
+
+    .tokenomics_area {
+        padding: 10rem 0rem;
+    }
+
+    .tokenomics_bottom ul {
+        display: block;
+        max-width: 28rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tokenomics_bottom ul li {
+        width: 100%;
+    }
+
+    .benefits_area {
+        padding: 10rem 0rem;
+    }
+
+    .footer_logo img {
+        max-width: 42rem;
+    }
+
+    .footer_area {
+        padding: 4rem 0rem 6rem;
+    }
+
+    .roadmap_item {
+        max-width: 38rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .roadmap_item::after {
+        width: 4rem;
+        height: 4rem;
+        right: -6rem;
+    }
+
+    .bullet2::after {
+        left: initial;
+    }
+
+    .roadmap_main {
+        max-width: 45rem;
+        width: 100%;
+    }
+
+    .roadmap_main::after {
+        left: 93%;
+    }
+
+    .roadmap_item h4 {
+        font-size: 2.2rem;
+    }
+
+    .roadmap_item ul li {
+        font-size: 1.85rem;
+    }
+
+}
