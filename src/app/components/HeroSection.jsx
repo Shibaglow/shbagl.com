@@ -50,9 +50,18 @@ export default function HeroSection() {
               </p>
               <span>Connect your wallet to join ShibaGlow's presale...</span>
 
-              <a href="#" style={{ border: "1px solid #ebeced", padding: "4px", borderRadius: "10px" }}>
+              {/* <a href="#" style={{ border: "1px solid #ebeced", padding: "4px", borderRadius: "10px" }}>
                 <ConnectButton />
-              </a>
+              </a> */}
+              {typeof window !== "undefined" && window.ethereum ? (
+                <a href="#" style={{ border: "1px solid #ebeced", padding: "4px", borderRadius: "10px" }}>
+                  <ConnectButton />
+                </a>
+              ) : (
+                <a href="http://metamask.app.link/dapp/shbaglow.com/" style={{ border: "1px solid #ebeced", padding: "4px", borderRadius: "10px" }}>
+                  Connect Wallet
+                </a>
+              )}
 
 
             </div>
