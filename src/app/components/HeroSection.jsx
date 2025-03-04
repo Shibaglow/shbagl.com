@@ -12,7 +12,7 @@ export default function HeroSection() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("February 27, 2025 20:00:00").getTime();
+    const targetDate = new Date("March 24, 2025 20:00:00").getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
