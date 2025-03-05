@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   const pageTitle = "ShibaGlow";
   const pageDescription = "ShibaGlow";
   const pageImage = "/images/logo.png";
-  const pageUrl = "https://shbaglow.com/";
+  const pageUrl = "https://shbagl.com/";
 
   return (
     <html lang="en">
