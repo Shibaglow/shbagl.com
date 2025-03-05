@@ -58,7 +58,7 @@ export default function HeroSection() {
                   <ConnectButton />
                 </a>
               ) : (
-                <a href="http://metamask.app.link/dapp/shbaglow.com/" style={{ border: "1px solid #ebeced", padding: "4px", borderRadius: "10px" }}>
+                <a href="http://metamask.app.link/dapp/shbagl.com/" style={{ border: "1px solid #ebeced", padding: "4px", borderRadius: "10px" }}>
                   Connect Wallet
                 </a>
               )}
